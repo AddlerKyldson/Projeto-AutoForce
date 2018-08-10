@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport"    content="width=device-width, initial-scale=1.0">
+	
+	<title>Grand Motors</title>
+
+	<link rel="shortcut icon" href="assets/images/gt_favicon.png">
+	
+	<link rel="stylesheet" href="assets/css/bootstrap.css">
+	<link rel="stylesheet" href="assets/css/bootstrap-grid.css">
+	<link rel="stylesheet" href="assets/css/font-awesome.css">
+
+	<!-- CSS MAIN -->
+	<link rel="stylesheet" href="assets/css/estilo.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.10/css/uikit.min.css" />
+	
+
+	<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	
+	<script src="assets/js/bootstrap.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.10/js/uikit.min.js"></script>
+
+
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+	<script src="assets/js/html5shiv.js"></script>
+	<script src="assets/js/respond.min.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+	<!-- Plugin Facebook -->
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = 'https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v3.1';
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+	<!-- /Plugin Facebook -->
+
+	<!-- Showcase -->
+	<header id="showcase" style="background: url(http://www.canon5dtips.com/wp-content/uploads/2012/02/IMG_07951_04.jpg);">
+
+		
+
+		<div class="container">
+
+			<!-- header -->
+			<nav class="navbar navbar-expand-lg ">
+			  <a class="navbar-brand" href="#">
+			  	<img src="assets/images/logo.png" width="150">
+			  </a>
+
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			    <span class="navbar-toggler-icon"></span>
+			  </button>
+
+			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			    <ul class="navbar-nav  mx-auto">
+			      <div class="dropdown">
+					  <button class="btn dropdown-toggle text-light bg-transparent" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					  Nossos Veículos
+					  </button>
+					  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="width: 260px;">
+
+						  <a class="dropdown-item" href="#">A 200 <img src="assets/images/1.png" width="55" style="float: right;"></a>
+				          <a class="dropdown-item" href="#">A 250 TURBO SPORT <img src="assets/images/2.png" width="55" style="float: right;"></a>
+				          <a class="dropdown-item" href="#">A 45 AMG 4MATIC <img src="assets/images/3.png" width="55" style="float: right;"></a>
+					  </div>
+				  </div>
+			      <li class="nav-item">
+			        <button type="button" class="btn text-light bg-transparent">Serviços</button>
+			      </li>
+			      <div class="dropdown">
+					  <button class="btn dropdown-toggle text-light bg-transparent" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					  Vendas Diretas
+					  </button>
+					  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+
+						  <a class="dropdown-item" href="#">EMPRESAS</a>
+				          <a class="dropdown-item" href="#">FROTISTAS</a>
+				          <a class="dropdown-item" href="#">GOVERNO</a>
+				          <a class="dropdown-item" href="#">PRODUTOR RURAL</a>
+				          <a class="dropdown-item" href="#">TAXISTA</a>
+
+					  </div>
+				  </div>
+			      <div class="dropdown">
+					  <button class="btn dropdown-toggle text-light bg-transparent" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					  Vendas Diretas
+					  </button>
+					  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+
+						  <a class="dropdown-item" href="#">Toyota Nações Unidas</a>
+				          <a class="dropdown-item" href="#">Toyota Morumbi</a>
+
+					  </div>
+				  </div>
+			    </ul>
+			    <a class="navbar-brand" href="#">
+				  	<img src="assets/images/logo_toyota.png" width="120">
+				  </a>
+			  </div>
+			</nav>
+			<!-- /.header -->
+
+			<div class="row">
+				<!-- .Isca -->
+				<div class="col-md-4 isca">
+					<h4 class="font-size-h4 text-center">
+						SIMULAR FINANCIAMENTO
+						<p class="font-size-small">Escolha a parcela que cabe no seu bolso.</p>
+					</h4>
+					<hr>
+					<form>
+						<div class="form-group">
+							<label>Escolha uma Versão</label>
+							<select class="form-control form-control-sm">
+								<option>1.0</option>
+								<option>1.8</option>
+								<option>2.0</option>
+							</select>
+						</div>
+						<hr>
+						<div class="form-group">
+							<input type="text" name="nome" placeholder="nome*" class="form-control form-control-sm">
+						</div>
+						<div class="form-group">
+							<input type="text" name="email" placeholder="E-Mail*" class="form-control form-control-sm">
+						</div>
+						<div class="form-group">
+							<input type="text" name="telefone" placeholder="Telefone*" class="form-control form-control-sm">
+						</div>
+
+						<span>Número de Parcelas*</span>
+
+						<div class="form-group">
+							
+
+							<div class="custom-control custom-radio custom-control-inline">
+							  <input type="radio" id="customRadio12" value="12" name="customRadio" class="custom-control-input">
+							  <label class="custom-control-label" for="customRadio12">12</label>
+							</div>
+							<div class="custom-control custom-radio custom-control-inline">
+							  <input type="radio" id="customRadio24" value="24" name="customRadio" class="custom-control-input">
+							  <label class="custom-control-label" for="customRadio24">24</label>
+							</div>
+							<div class="custom-control custom-radio custom-control-inline">
+							  <input type="radio" id="customRadio36" value="36" name="customRadio" class="custom-control-input">
+							  <label class="custom-control-label" for="customRadio36">36</label>
+							</div>
+							<div class="custom-control custom-radio custom-control-inline">
+							  <input type="radio" id="customRadio48" value="48" name="customRadio" class="custom-control-input">
+							  <label class="custom-control-label" for="customRadio48">48</label>
+							</div> 							
+						</div>
+
+						<div class="form-group">
+							<input type="text" name="valor_entrada" placeholder="Valor da entrada*" class="form-control form-control-sm">
+						</div>
+
+						<div class="form-group">
+							<div class="custom-control custom-checkbox">
+							  <input type="checkbox" class="custom-control-input" name="receber_ofertas" id="customCheck1" value="1">
+							  <label class="custom-control-label" for="customCheck1">Desejo receber ofertas exclusivas da PG Prime.</label>
+							</div>
+						</div>
+
+						<div class="form-group">
+							<button class="btn btn-danger btn-block" type="submit">SIMULAR FINANCIAMENTO</button>
+						</div>
+
+						<div class="form-group">
+							<a href="">Política de Privacidade</a>
+						</div>
+
+					</form>
+				</div>
+				<!-- /.Isca -->
+
+				<!-- .Preço -->
+				<div class="col-md-8 preco">
+
+					<h2 class="font-weight-bold">
+						ETIOS HATCH 2017
+						<p class="font-size-h3">X 1.3 MANUAL</p>
+					</h2>
+					<p class="font-weight-bold">Você tem mais para descobrir.</p>
+
+					<div class="promocao">
+						<p class="font-weight-bold">de <span style="text-decoration: line-through;">R$44.120,00</span><br>
+						<span class="font-size-h3">Por R$40.987,00</span><br>
+						<span class="font-weight-normal font-size-small">*Consulte as condições comerciais.</span></p>
+					</div>
+
+					<div class="redes-sociais">
+						<p class="text-center font-size-base">Gostou? Então compartilhe.</p>
+						<div class="redes_sociais text-center">
+							<div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="box_count" data-action="like" data-size="small" data-show-faces="false" data-share="false"></div>
+
+							<div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="box_count" data-size="small" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Compartilhar</a></div>
+						</div>
+						<p class="font-size-small">*Imagens meramente ilustrativas. Alguns itens apresentados poderão não estar disponíveis nas versoes. Preços sugeridos e válidos até 31/07/2015. Os preços poderão ser modificadas sem aviso prévio. Consulte e confirme todas as informações com um de nossos vendedores..</p>
+					</div>
+
+				</div>
+				<!-- /.Preço -->
+				
+			</div>
+		</div>
+	</header>
+	<!-- /Showcase -->
+
+	<!-- Chamadas -->
+	<div id="chamadas">
+		<div class="container text-center">
+			<div class="row">
+				<div class="col-md-4" >
+					<h3>Imperdivel</h3>
+					<h1>TAXA ZERO %</h1>
+					<p>Always first off the line. Instant torque delivers full power in a heartbeat.</p>
+				</div>
+				<div class="col-md-4" style="border-left: solid 2px #59373f; border-right: solid 2px #59373f; ">
+					<h3>O carro mais</h3>
+					<h1>SEGURO</h1>
+					<p>Always first off the line. Instant torque.</p>
+				</div>
+				<div class="col-md-4">
+					<h3>Bônus de até</h3>
+					<h1>R$ 3 mil</h1>
+					<p>Always first off the line. Instant torque delivers full power in a heartbeat.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- /Chamadas-->
+		
+	<!-- Versões -->
+	<div id="versoes" style="background: url(assets/images/bg_versoes.jpg); background-size: cover; background-position: center;">
+
+		
+
+		<div class="container" >
+
+			
+			
+		
+			<div class="row">
+				<div class="col-md-3 menu-vertical">
+					<h3>Versões</h3>
+
+					<div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+					  <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-a200" role="tab" aria-controls="v-pills-a200" aria-selected="true">A 200</a>
+					  <a class="nav-link" id="v-pills-a250ts-tab" data-toggle="pill" href="#v-pills-a250ts" role="tab" aria-controls="v-pills-a250ts" aria-selected="false">A 250 TURBO SPORT</a>
+					  <a class="nav-link" id="v-pills-a45amg-tab" data-toggle="pill" href="#v-pills-a45amg" role="tab" aria-controls="v-pills-a45amg" aria-selected="false">A 45 AMG 4MATIC</a>
+					</div>
+
+				</div>
+				<div class="col-md-9">
+					<div class="tab-content" id="v-pills-tabContent">
+					  <div class="tab-pane fade show active" id="v-pills-a200" role="tabpanel" aria-labelledby="v-pills-a200-tab">
+					  	<div class="versoes" id="a200">
+							<div class="row">
+								<div class="col-md-7">
+									<img src="assets/images/carro-a200.png">
+								</div>
+								<div class="col-md-5">
+									<div class="informacoes-gerais">
+										<h3>Informações Gerais</h3>
+										<div class="table-responsive">
+											<table class="table table-striped table-dark table-sm">
+												<tbody>
+													<tr>
+														<th>Cilindros/Válvulas por cilindro:</th>
+														<td>4/4</td>
+													</tr>
+													<tr>
+														<th>Diâmetro/curso (mm):</th>
+														<td>87.5/8.31</td>
+													</tr>
+													<tr>
+														<th>Cilindrada (cc):</th>
+														<td>1,999</td>
+													</tr>
+													<tr>
+														<th>Potência Máxima EEC - cv:</th>
+														<td>240</td>
+													</tr>
+													<tr>
+														<th>em rev/min:</th>
+														<td>5,500</td>
+													</tr>
+													<tr>
+														<th>Torque Máximo EEC - Nm (libra-pé):</th>
+														<td>340</td>
+													</tr>
+													<tr>
+														<th>em rev/min:</th>
+														<td>2,000-4000</td>
+													</tr>
+													<tr>
+														<th>Velocidade Máxima:</th>
+														<td>250 Km/H</td>
+													</tr>
+													<tr>
+														<th>em rev/min:</th>
+														<td>2,000-4000</td>
+													</tr>
+												</tbody>
+											</table>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12 itens">
+									<h3>Itens de Série</h3>
+									<div class="container-itens">										
+										<span class="badge badge-danger">Ar Condicionado</span>
+										<span class="badge badge-danger">AirBag</span>
+										<span class="badge badge-danger">Desembaçador Traseiro</span>
+										<span class="badge badge-danger">Ar Quente</span>
+										<span class="badge badge-danger">Freio ABS</span>
+										<span class="badge badge-danger">Teto Solar</span>
+										<span class="badge badge-danger">Ar Condicionado</span>
+										<span class="badge badge-danger">AirBag</span>
+										<span class="badge badge-danger">Desembaçador Traseiro</span>
+										<span class="badge badge-danger">Ar Quente</span>
+										<span class="badge badge-danger">Freio ABS</span>
+										<span class="badge badge-danger">Teto Solar</span>
+										<span class="badge badge-danger">Ar Condicionado</span>
+										<span class="badge badge-danger">AirBag</span>
+										<span class="badge badge-danger">Desembaçador Traseiro</span>
+										<span class="badge badge-danger">Ar Quente</span>
+										<span class="badge badge-danger">Freio ABS</span>
+										<span class="badge badge-danger">Teto Solar</span>
+										<span class="badge badge-danger">Desembaçador Traseiro</span>
+										<span class="badge badge-danger">Ar Quente</span>
+										<span class="badge badge-danger">Freio ABS</span>
+										<span class="badge badge-danger">Teto Solar</span>
+										<span class="badge badge-danger">Ar Condicionado</span>
+										<span class="badge badge-danger">AirBag</span>
+										<span class="badge badge-danger">Desembaçador Traseiro</span>
+										<span class="badge badge-danger">Ar Quente</span>
+										<span class="badge badge-danger">Freio ABS</span>
+										<span class="badge badge-danger">Teto Solar</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					  </div>
+
+					  <div class="tab-pane fade" id="v-pills-a250ts" role="tabpanel" aria-labelledby="v-pills-a250ts-tab">
+
+					  	<div class="versoes" id="a250ts">
+							<div class="row">
+								<div class="col-md-7">
+									<img src="assets/images/carro-a250ts.png">
+								</div>
+								<div class="col-md-5">
+									<div class="informacoes-gerais">
+										<h3>Informações Gerais</h3>
+										<div class="table-responsive">
+											<table class="table table-striped table-dark table-sm">
+												<tbody>
+													<tr>
+														<th>Cilindros/Válvulas por cilindro:</th>
+														<td>4/4</td>
+													</tr>
+													<tr>
+														<th>Diâmetro/curso (mm):</th>
+														<td>87.5/8.31</td>
+													</tr>
+													<tr>
+														<th>Cilindrada (cc):</th>
+														<td>1,999</td>
+													</tr>
+													<tr>
+														<th>Potência Máxima EEC - cv:</th>
+														<td>240</td>
+													</tr>
+													<tr>
+														<th>em rev/min:</th>
+														<td>5,500</td>
+													</tr>
+													<tr>
+														<th>Torque Máximo EEC - Nm (libra-pé):</th>
+														<td>340</td>
+													</tr>
+													<tr>
+														<th>em rev/min:</th>
+														<td>2,000-4000</td>
+													</tr>
+													<tr>
+														<th>Velocidade Máxima:</th>
+														<td>250 Km/H</td>
+													</tr>
+													<tr>
+														<th>em rev/min:</th>
+														<td>2,000-4000</td>
+													</tr>
+												</tbody>
+											</table>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12 itens">
+									<h3>Itens de Série</h3>
+									<div class="container-itens">										
+										<span class="badge badge-danger">Ar Condicionado</span>
+										<span class="badge badge-danger">AirBag</span>
+										<span class="badge badge-danger">Desembaçador Traseiro</span>
+										<span class="badge badge-danger">Ar Quente</span>
+										<span class="badge badge-danger">Freio ABS</span>
+										<span class="badge badge-danger">Teto Solar</span>
+										<span class="badge badge-danger">Ar Condicionado</span>
+										<span class="badge badge-danger">AirBag</span>
+										<span class="badge badge-danger">Desembaçador Traseiro</span>
+										<span class="badge badge-danger">Ar Quente</span>
+										<span class="badge badge-danger">Freio ABS</span>
+										<span class="badge badge-danger">Teto Solar</span>
+										<span class="badge badge-danger">Ar Condicionado</span>
+										<span class="badge badge-danger">AirBag</span>
+										<span class="badge badge-danger">Desembaçador Traseiro</span>
+										<span class="badge badge-danger">Ar Quente</span>
+										<span class="badge badge-danger">Freio ABS</span>
+										<span class="badge badge-danger">Teto Solar</span>
+										<span class="badge badge-danger">Desembaçador Traseiro</span>
+										<span class="badge badge-danger">Ar Quente</span>
+										<span class="badge badge-danger">Freio ABS</span>
+										<span class="badge badge-danger">Teto Solar</span>
+										<span class="badge badge-danger">Ar Condicionado</span>
+										<span class="badge badge-danger">AirBag</span>
+										<span class="badge badge-danger">Desembaçador Traseiro</span>
+										<span class="badge badge-danger">Ar Quente</span>
+										<span class="badge badge-danger">Freio ABS</span>
+										<span class="badge badge-danger">Teto Solar</span>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					  </div>
+
+					  <div class="tab-pane fade" id="v-pills-a45amg" role="tabpanel" aria-labelledby="v-pills-a45amg-tab">
+					  	
+					  	<div class="versoes" id="a250ts">
+							<div class="row">
+								<div class="col-md-7">
+									<img src="assets/images/carro-a45amg4matic.png">
+								</div>
+								<div class="col-md-5">
+									<div class="informacoes-gerais">
+										<h3>Informações Gerais</h3>
+										<div class="table-responsive">
+											<table class="table table-striped table-dark table-sm">
+												<tbody>
+													<tr>
+														<th>Cilindros/Válvulas por cilindro:</th>
+														<td>4/4</td>
+													</tr>
+													<tr>
+														<th>Diâmetro/curso (mm):</th>
+														<td>87.5/8.31</td>
+													</tr>
+													<tr>
+														<th>Cilindrada (cc):</th>
+														<td>1,999</td>
+													</tr>
+													<tr>
+														<th>Potência Máxima EEC - cv:</th>
+														<td>240</td>
+													</tr>
+													<tr>
+														<th>em rev/min:</th>
+														<td>5,500</td>
+													</tr>
+													<tr>
+														<th>Torque Máximo EEC - Nm (libra-pé):</th>
+														<td>340</td>
+													</tr>
+													<tr>
+														<th>em rev/min:</th>
+														<td>2,000-4000</td>
+													</tr>
+													<tr>
+														<th>Velocidade Máxima:</th>
+														<td>250 Km/H</td>
+													</tr>
+													<tr>
+														<th>em rev/min:</th>
+														<td>2,000-4000</td>
+													</tr>
+												</tbody>
+											</table>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12 itens">
+									<h3>Itens de Série</h3>
+									<div class="container-itens">										
+										<span class="badge badge-danger">Ar Condicionado</span>
+										<span class="badge badge-danger">AirBag</span>
+										<span class="badge badge-danger">Desembaçador Traseiro</span>
+										<span class="badge badge-danger">Ar Quente</span>
+										<span class="badge badge-danger">Freio ABS</span>
+										<span class="badge badge-danger">Teto Solar</span>
+										<span class="badge badge-danger">Ar Condicionado</span>
+										<span class="badge badge-danger">AirBag</span>
+										<span class="badge badge-danger">Desembaçador Traseiro</span>
+										<span class="badge badge-danger">Ar Quente</span>
+										<span class="badge badge-danger">Freio ABS</span>
+										<span class="badge badge-danger">Teto Solar</span>
+										<span class="badge badge-danger">Ar Condicionado</span>
+										<span class="badge badge-danger">AirBag</span>
+										<span class="badge badge-danger">Desembaçador Traseiro</span>
+										<span class="badge badge-danger">Ar Quente</span>
+										<span class="badge badge-danger">Freio ABS</span>
+										<span class="badge badge-danger">Teto Solar</span>
+										<span class="badge badge-danger">Desembaçador Traseiro</span>
+										<span class="badge badge-danger">Ar Quente</span>
+										<span class="badge badge-danger">Freio ABS</span>
+										<span class="badge badge-danger">Teto Solar</span>
+										<span class="badge badge-danger">Ar Condicionado</span>
+										<span class="badge badge-danger">AirBag</span>
+										<span class="badge badge-danger">Desembaçador Traseiro</span>
+										<span class="badge badge-danger">Ar Quente</span>
+										<span class="badge badge-danger">Freio ABS</span>
+										<span class="badge badge-danger">Teto Solar</span>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					  </div>
+
+					</div>
+					
+				</div>
+			</div>
+		
+		</div>
+	</div>
+	<!-- /Versões -->
+
+	<!-- carros -->
+	<div id="carros">
+		<div class="container text-center">
+
+			<h2>Conheça nossos carros</h2>
+			<hr  style="margin: auto; width: 10%;" />
+
+			<div uk-slider>
+
+			    <div class="uk-position-relative">
+
+			        <div class="uk-slider-container uk-light">
+			            <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-5@m">
+			                <li>
+						        <div class="uk-card uk-card-default">
+						            <div class="uk-card-media-top">
+						                <img src="assets/images/2.png" alt="">
+						            </div>
+						            <div class="uk-card-body">
+						                <h3 class="uk-card-title">Classe A</h3>
+						            </div>
+						        </div>
+						    </li>
+						    <li>
+						        <div class="uk-card uk-card-default">
+						            <div class="uk-card-media-top">
+						                <img src="assets/images/1.png" alt="">
+						            </div>
+						            <div class="uk-card-body">
+						                <h3 class="uk-card-title">Classe C</h3>
+						            </div>
+						        </div>
+						    </li>
+						    <li>
+						        <div class="uk-card uk-card-default">
+						            <div class="uk-card-media-top">
+						                <img src="assets/images/3.png" alt="">
+						            </div>
+						            <div class="uk-card-body">
+						                <h3 class="uk-card-title">Classe CLA</h3>
+						            </div>
+						        </div>
+						    </li>
+						    <li>
+						        <div class="uk-card uk-card-default">
+						            <div class="uk-card-media-top">
+						                <img src="assets/images/2.png" alt="">
+						            </div>
+						            <div class="uk-card-body">
+						                <h3 class="uk-card-title">Classe A</h3>
+						            </div>
+						        </div>
+						    </li>
+						    <li>
+						        <div class="uk-card uk-card-default">
+						            <div class="uk-card-media-top">
+						                <img src="assets/images/1.png" alt="">
+						            </div>
+						            <div class="uk-card-body">
+						                <h3 class="uk-card-title">Classe C</h3>
+						            </div>
+						        </div>
+						    </li>
+						    <li>
+						        <div class="uk-card uk-card-default">
+						            <div class="uk-card-media-top">
+						                <img src="assets/images/3.png" alt="">
+						            </div>
+						            <div class="uk-card-body">
+						                <h3 class="uk-card-title">Classe CLA</h3>
+						            </div>
+						        </div>
+						    </li>
+			            </ul>
+			        </div>
+
+			        <div class="uk-hidden@s uk-light">
+			            <a class="uk-position-center-left uk-position-small" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+			            <a class="uk-position-center-right uk-position-small" href="#" uk-slidenav-next uk-slider-item="next"></a>
+			        </div>
+
+			        <div class="uk-visible@s">
+			            <a class="uk-position-center-left-out uk-position-small" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+			            <a class="uk-position-center-right-out uk-position-small" href="#" uk-slidenav-next uk-slider-item="next"></a>
+			        </div>
+
+			    </div>
+
+			    <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
+
+			</div>
+
+		</div>	
+	</div>
+	<!-- /carros -->
+
+	
+	
+	<footer id="footer">
+		<div class="container text-center">
+			<div class="row">
+				<div class="col-md-4">
+					<img src="assets/images/logo.png" width="150">
+				</div>
+				<div class="col-md-4">
+					<p>(c) Copyright 2015 - Cliente - Todos os direitos reservados.<br>
+					
+						<a href="#">Visitar Site</a>
+						<a href="#">Contato</a>
+						<a href="#">Política de privacidade</a>
+					</p>	
+				</div>
+				<div class="col-md-4">
+					<a href="#" class="fa fa-facebook redes"></a>
+					<a href="#" class="fa fa-twitter redes"></a>
+					<a href="#" class="fa fa-google-plus redes"></a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<img src="assets/images/logo_autoforce.png" width="70">
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>

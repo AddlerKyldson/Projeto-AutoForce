@@ -1,0 +1,240 @@
+/* Imports */
+@import url("//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i");
+/* COLOR */
+/* FONT */
+.scrolloff {
+  pointer-events: none; }
+
+.fa-github-alt:hover {
+  background: #000 !important; }
+
+.fa-pinterest-p:hover {
+  background: #cb2027 !important; }
+
+.fa-behance:hover {
+  background: #000 !important; }
+
+.fa-facebook:hover {
+  background: #3c599f !important; }
+
+.fa-foursquare:hover {
+  background: #1cafec !important; }
+
+.fa-google-plus:hover {
+  background: #cf1717 !important; }
+
+.fa-instagram:hover {
+  background: #2a5b83 !important; }
+
+.fa-lastfm:hover {
+  background: #d21309 !important; }
+
+.fa-linkedin:hover {
+  background: #007bb6 !important; }
+
+.fa-skype:hover {
+  background: #00aff0 !important; }
+
+.fa-steam:hover {
+  background: #000 !important; }
+
+.fa-vine:hover {
+  background: #00a478 !important; }
+
+.fa-wordpress:hover {
+  background: #21759a !important; }
+
+.fa-yahoo:hover {
+  background: #572c73 !important; }
+
+.fa-vimeo:hover {
+  background: #1ab7ea !important; }
+
+.fa-soundcloud:hover {
+  background: #f7620e !important; }
+
+.fa-spotify:hover {
+  background: #1ed760 !important; }
+
+.fa-twitter:hover {
+  background: #33ccff !important; }
+
+.fa-whatsapp:hover {
+  background: #179653 !important; }
+
+.fa-youtube-play:hover {
+  background: #ce1525 !important; }
+
+.fixed {
+  position: fixed; }
+
+.absolute {
+  position: absolute; }
+
+.static {
+  position: static; }
+
+.top {
+  top: 0; }
+
+.right {
+  right: 0; }
+
+.left {
+  left: 0; }
+
+.bottom {
+  bottom: 0; }
+
+/* Geral */
+.font-base {
+  font-size: 14px; }
+
+.font-size-small {
+  font-size: 12px; }
+
+.font-size-wee {
+  font-size: 10px; }
+
+.font-size-large {
+  font-size: 18px; }
+
+.font-size-h1, h1 {
+  font-size: 36px; }
+
+.font-size-h2, h2 {
+  font-size: 30px; }
+
+.font-size-h3, h3 {
+  font-size: 24px; }
+
+.font-size-h4, h4 {
+  font-size: 18px; }
+
+.font-size-h5, h5 {
+  font-size: 16px; }
+
+.font-size-h6, h6 {
+  font-size: 12px; }
+
+/* --- ShowCase --- */
+#showcase {
+  color: #fff;
+  font-family: "Open Sans", sans-serif; }
+  #showcase .container {
+    padding: 25px 15px; }
+    #showcase .container .row .isca {
+      background-color: rgba(40, 40, 40, 0.5);
+      padding: 25px 15px; }
+      #showcase .container .row .isca h4 {
+        color: #fff; }
+      #showcase .container .row .isca a {
+        color: #fff;
+        text-decoration: underline; }
+      #showcase .container .row .isca form {
+        font-size: 12px; }
+        #showcase .container .row .isca form input, #showcase .container .row .isca form select {
+          background-color: rgba(40, 40, 40, 0.5);
+          color: #fff; }
+    #showcase .container .row .preco {
+      padding: 25px 15px; }
+      #showcase .container .row .preco h2 {
+        color: #fff; }
+      #showcase .container .row .preco .promocao {
+        margin-top: 40px; }
+      #showcase .container .row .preco .redes-sociais {
+        position: absolute;
+        bottom: 0; }
+
+#chamadas {
+  background: #553137; }
+  #chamadas .container {
+    padding: 40px 15px; }
+    #chamadas .container h3 {
+      color: #fff;
+      font-weight: 100; }
+    #chamadas .container h1 {
+      color: #d33c5c; }
+    #chamadas .container p {
+      color: #c6c6c6; }
+
+#versoes {
+  color: #fff;
+  padding-bottom: 40px; }
+  #versoes .container {
+    padding: 0 15px; }
+    #versoes .container h3 {
+      font-weight: 100;
+      color: #fff; }
+    #versoes .container .menu-vertical {
+      padding: 40px 15px; }
+      #versoes .container .menu-vertical .nav-link {
+        color: #797979;
+        border-bottom: solid 1px #797979;
+        border-radius: 1px;
+        text-align: right; }
+      #versoes .container .menu-vertical .nav-link.active {
+        color: #fff !important;
+        background-color: transparent; }
+    #versoes .container .informacoes-gerais {
+      padding: 40px 15px;
+      background-color: rgba(40, 40, 40, 0.5); }
+      #versoes .container .informacoes-gerais .table-responsive {
+        max-height: 200px; }
+      #versoes .container .informacoes-gerais table tr th {
+        font-size: 12px;
+        font-weight: normal;
+        color: #c6c6c6; }
+      #versoes .container .informacoes-gerais table tr td {
+        font-size: 12px;
+        color: #d33c5c; }
+    #versoes .container .itens {
+      padding: 0 15px 40px 15px;
+      max-width: 100%;
+      overflow: scroll;
+      overflow-y: hidden; }
+      #versoes .container .itens .badge {
+        font-weight: normal !important; }
+      #versoes .container .itens .container-itens {
+        width: 1500px; }
+
+#carros .container {
+  padding: 40px 15px; }
+  #carros .container h2 {
+    font-weight: 100 !important; }
+  #carros .container .uk-seta-slide {
+    color: #fff;
+    background: #797979; }
+  #carros .container .uk-dotnav > .uk-active > * {
+    background-color: #d33c5c !important; }
+  #carros .container .uk-card {
+    box-shadow: none; }
+    #carros .container .uk-card .uk-card-body {
+      padding: 0; }
+      #carros .container .uk-card .uk-card-body .uk-card-title {
+        font-size: 18px;
+        font-weight: normal; }
+
+#footer {
+  background: #2a2a2a; }
+  #footer .container {
+    padding: 40px 15px;
+    color: #797979;
+    font-size: 12px; }
+    #footer .container a {
+      margin: 0 15px;
+      text-decoration: underline;
+      color: #797979; }
+    #footer .container .fa {
+      padding: 10px;
+      font-size: 16px;
+      width: 35px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+      background: #797979;
+      color: #2a2a2a; }
+      #footer .container .fa:hover {
+        color: #fff; }
+
+/*# sourceMappingURL=estilo.css.map */
